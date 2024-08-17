@@ -1,12 +1,12 @@
-## 1. Create a Supabase project
+### 1. Create a Supabase project
 
-## 2. Type this in theSQL Editor:
+### 2. Type this in theSQL Editor:
 
-#### Create the table
+##### Create the table
 
 `create table notes (identity, title text not null);`
 
-#### Insert some sample data into the table
+##### Insert some sample data into the table
 
 ```
 insert into notes (title)
@@ -20,6 +20,6 @@ alter table notes enable row level security;
 
 ### 3. Clone this Project
 
-## 4. change naming from .emv.example to .env.local and add keys
+### 4. change naming from .emv.example to .env.local and add keys
 
-## 5. run npm run dev
+### 5. run npm run dev
